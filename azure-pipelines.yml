@@ -7,9 +7,6 @@ trigger:
       - master
       - develop
 
-pool:
-  vmImage: ubuntu-latest
-
 stages:
   - stage: CI
     jobs:
