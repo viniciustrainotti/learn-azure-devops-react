@@ -7,6 +7,9 @@ trigger:
       - master
       - develop
 
+pool:
+  vmImage: 'ubuntu-20.04'
+
 stages:
   - stage: CI
     jobs:
