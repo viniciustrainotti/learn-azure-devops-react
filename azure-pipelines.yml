@@ -11,7 +11,7 @@ pool:
   vmImage: ubuntu-latest
 
 stages:
-  - stage: CI_Checks
+  - stage: CI
     jobs:
       - job:
         displayName: Bootstrap
